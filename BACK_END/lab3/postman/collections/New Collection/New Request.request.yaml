@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:8080/create
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \  \"id\": 1,\r
+
+    \  \"name\": \"Anshuman\",\r
+
+    \  \"email\": \"anshuman@gmail.com\",\r
+
+    \  \"department\": \"CSE\"\r
+
+    }"
+order: 1788430875642
